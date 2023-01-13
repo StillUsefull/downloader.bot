@@ -45,4 +45,4 @@ app.get('/download', async (req, res) => {
 app.get('/', (req, res) => {
     res.send('INDEX');
 })
-app.listen({ port: 7000 }, () => console.log(' Server ready'));
+app.listen({ port: 6000 }, () => console.log(' Server ready'));
